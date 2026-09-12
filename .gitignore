@@ -1,0 +1,33 @@
+# Secrets
+**/.env
+**/.env.*
+!.env.example
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/venv/
+**/.venv/
+
+# Local/generated data
+**/chroma_db/
+**/uploads/
+backend/data/
+
+# Local artifacts
+backend/page1.png
+
+# Frontend
+**/node_modules/
+**/dist/
+
+# Python tooling
+**/.pytest_cache/
+**/.mypy_cache/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
